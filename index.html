@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat&family=Open+Sans:ital,wght@0,500;1,300&family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <aside class="aside">
+          <h1 class="aside__title">Your Result</h1>
+          <div class="aside__content">
+            <h2 class="aside__content--title">76</h2>
+            <p class="aside-content--text">of 100</p>
+          </div>
+          <h3 class="aside__subtitle">Great</h3>
+          <p class="aside__text">
+            You scored higher than 65% of the people who have taken thiese tests
+          </p>
+        </aside>
+        <section class="main-section">
+          <h1 class="main-section__title">Summary</h1>
+          <div class="main-section__content reaction">
+            <div class="main-section__content--left">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                class="main-section__content--img"
+                alt="Reaction"
+              />
+              <h4>Reaction</h4>
+            </div>
+            <div class="main-section__content--right">
+              <p>80<span>/100</span></p>
+            </div>
+          </div>
+          <div class="main-section__content memory">
+            <div class="main-section__content--left">
+              <img
+                src="./assets/images/icon-memory.svg"
+                class="main-section__content--img"
+                alt="Memory"
+              />
+              <h4>Memory</h4>
+            </div>
+            <div class="main-section__content--right">
+              <p>92<span>/100</span></p>
+            </div>
+          </div>
+          <div class="main-section__content verbal">
+            <div class="main-section__content--left">
+              <img
+                src="./assets/images/icon-verbal.svg"
+                class="main-section__content--img"
+                alt="Verbal"
+              />
+              <h4>Verbal</h4>
+            </div>
+            <div class="main-section__content--right">
+              <p>61<span>/100</span></p>
+            </div>
+          </div>
+          <div class="main-section__content visual">
+            <div class="main-section__content--left">
+              <img
+                src="./assets/images/icon-visual.svg"
+                class="main-section__content--img"
+                alt="Visual"
+              />
+              <h4>Visual</h4>
+            </div>
+            <div class="main-section__content--right">
+              <p>80<span>/100</span></p>
+            </div>
+          </div>
+          <button class="button">Continue</button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
